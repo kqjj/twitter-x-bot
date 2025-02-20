@@ -14,10 +14,10 @@ logger = logging.getLogger()
 
 # Replace these with your own credentials
 load_dotenv()
-consumer_id = os.getenv('CONSUMER_ID')
-consumer_secret = os.getenv('CONSUMER_SECRET')
-access_token = os.getenv('ACCESS_TOKEN')
-access_token_secret = os.getenv('ACCESS_TOKEN_SECRET')
+consumer_id = os.getenv('Ulu1QDJGMF3RwBKx1iLcompCB')
+consumer_secret = os.getenv('cZfq3xYvcsIlx69tVpI1Qb5QG9W9NbICXlAuCZMqPsRs5g5Gud')
+access_token = os.getenv('1840086766965170176-AfNV18o4AjvgqmJOz4P1wFXQumWByh')
+access_token_secret = os.getenv('qKYhWL0KFjs2EttYILN7wxQrlDEQoFHQPYoPCMt286HM5')
 
 # Authenticate to Twitter
 auth = tweepy.OAuth1UserHandler(consumer_id, consumer_secret, access_token, access_token_secret)
